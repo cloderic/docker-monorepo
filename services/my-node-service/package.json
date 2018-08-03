@@ -1,0 +1,12 @@
+{
+  "name": "my-node-service",
+  "version": "0.1.0",
+  "author": "Clodéric Mars <cloderic.mars@gmail.com>",
+  "license": "WTFPL",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "dependencies": {
+    "mycoollibrary": "file:../../bases/cool-node/mycoollibrary"
+  }
+}

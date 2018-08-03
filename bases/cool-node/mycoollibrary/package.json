@@ -1,0 +1,7 @@
+{
+  "name": "mycoollibrary",
+  "version": "0.1.0",
+  "author": "Clodéric Mars <cloderic.mars@gmail.com>",
+  "license": "WTFPL",
+  "main": "src/index.js"
+}

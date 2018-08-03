@@ -1,0 +1,11 @@
+[[package]]
+name = "my-rust-service"
+version = "0.1.0"
+dependencies = [
+ "smart_rust_library 0.1.0",
+]
+
+[[package]]
+name = "smart_rust_library"
+version = "0.1.0"
+

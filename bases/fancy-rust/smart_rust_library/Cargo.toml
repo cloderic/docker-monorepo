@@ -1,0 +1,6 @@
+[package]
+name = "smart_rust_library"
+version = "0.1.0"
+authors = ["Clodéric Mars <cloderic.mars@gmail.com>"]
+
+[dependencies]

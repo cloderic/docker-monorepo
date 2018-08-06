@@ -19,4 +19,5 @@ ${IMAGE_DIRS}:
 # Specify dependencies between images
 services/my-node-service: bases/cool-node
 services/my-rust-service: bases/fancy-rust
+services/my-python-service: bases/nice-python
 

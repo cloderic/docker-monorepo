@@ -64,3 +64,13 @@ $ cargo run
 ```
 
 Thanks to the way `cargo run` works, changes to the shared library are detected, there's nothing additional to do.
+
+## How to build and run the Python service without Docker ##
+
+```console
+$ cd ./services/my-python-service/
+$ pipenv install
+$ pipenv run start
+```
+
+Thanks to the way `pipenv install` works on local dependencies, you don't even need to rerun it when a change is done in the shared library (e.g. in `/bases/nice-python/fancy_python_library/fancy_python_library/fancy.py`).

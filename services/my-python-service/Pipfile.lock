@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b450790c7b798f5075fc1528d963b6793fbec4aa822d8d8d61e13d834d0dc7ed"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "ab47816": {
+            "editable": true,
+            "path": "./../../bases/nice-python/fancy_python_library"
+        }
+    },
+    "develop": {}
+}

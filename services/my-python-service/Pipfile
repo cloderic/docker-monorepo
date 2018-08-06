@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"ab47816" = {path = "./../../bases/nice-python/fancy_python_library", editable = true}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+start = "python src/main.py"

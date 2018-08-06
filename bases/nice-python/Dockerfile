@@ -13,4 +13,4 @@ RUN pip install pipenv
 ENV ROOT_DIR /app
 
 WORKDIR ${ROOT_DIR}/bases/nice-python
-ADD . .
+COPY . .

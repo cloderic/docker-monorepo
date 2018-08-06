@@ -11,4 +11,4 @@ ENV MONOREPO_VERSION ${TAG}
 ENV ROOT_DIR /app
 
 WORKDIR ${ROOT_DIR}/bases/cool-node
-ADD . .
+COPY . .

@@ -5,9 +5,9 @@ LABEL maintainer="cloderic.mars@gmail.com"
 
 WORKDIR ${ROOT_DIR}/services/my-python-service
 
-ADD Pipfile .
-ADD Pipfile.lock .
+COPY Pipfile .
+COPY Pipfile.lock .
 RUN pipenv install --system
 
-ADD . .
+COPY . .
 CMD python ./src/main.py

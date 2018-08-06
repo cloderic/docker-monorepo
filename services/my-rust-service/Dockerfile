@@ -5,7 +5,7 @@ LABEL maintainer="cloderic.mars@gmail.com"
 
 WORKDIR ${ROOT_DIR}/services/my-rust-service
 
-ADD . .
+COPY . .
 RUN cargo build --release
 
 CMD target/release/my-rust-service

@@ -5,8 +5,8 @@ LABEL maintainer="cloderic.mars@gmail.com"
 
 WORKDIR ${ROOT_DIR}/services/my-node-service
 
-ADD ./package.json ./
+COPY ./package.json ./
 RUN npm install
 
-ADD . .
+COPY . .
 CMD npm start
